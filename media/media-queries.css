@@ -1,0 +1,30 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {  
+    .services-box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.2em;
+    }
+    .services-content{
+        width: 9rem;
+        height: 10rem;
+    }
+    .services-box .services-content:hover{
+        box-shadow: var(--box-shadow);
+    }
+    .services-content i{
+        font-size: 1.7rem;
+        color: var(--main-color);
+    }
+    .services-content h3{
+        font-size: 1rem;
+    }
+    .services-content p{
+        font-size: 14px;
+        margin: .2rem 0 .8rem;
+    }
+    .services-content .btn{
+        margin-top: -10px;
+        width: 30px;
+        height: 20px;
+    }
+}
