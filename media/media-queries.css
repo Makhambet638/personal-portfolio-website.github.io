@@ -1,3 +1,15 @@
+/* for phones */
+/* @media screen and (max-width: 768px) {
+    .profile-page p {
+        font-size:2px;
+    }
+    .workeduc-content p{
+        display: none;
+    }
+} */
+
+
+/* for tablets  */
 @media screen and (min-width: 768px) and (max-width: 1024px) {  
     .services-box{
         display: flex;
