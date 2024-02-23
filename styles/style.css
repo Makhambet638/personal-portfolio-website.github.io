@@ -442,11 +442,21 @@ body{
         font-size: 13px;
         margin-right: 100px;
     }
-    .workeduc-content p{
-        font-size: 10px;
+    .profile-page .social-media a{
+        width: 2rem;
+        height: 2rem;
     }
-    .workeduc-content h3{
-        font-size: 13px;
+    .profile-page .social-media{
+        margin-right: 100px;
+    }
+    .book .book-page{
+        position: absolute;
+        width: 50%;
+        height: 100%;
+        background: var(--pages-color);
+        box-shadow: 0 0 .6rem rgba(0,0,0, .1);
+        display: flex;
+        padding: 0rem;
     }
     .btn{
         padding: 0px;
@@ -466,21 +476,16 @@ body{
         background: var(--main-color);
         border-radius: 50%;
     }
-    .profile-page .social-media a{
-        width: 2rem;
-        height: 2rem;
+    .workeduc-box .workeduc-content{
+        position: relative;
+        padding-left: 0.8rem;
+        margin-bottom: 1.2rem;
     }
-    .profile-page .social-media{
-        margin-right: 100px;
+    .workeduc-content p{
+        font-size: 11px;
     }
-    .book .book-page{
-        position: absolute;
-        width: 50%;
-        height: 100%;
-        background: var(--pages-color);
-        box-shadow: 0 0 .6rem rgba(0,0,0, .1);
-        display: flex;
-        padding: 0rem;
+    .workeduc-content h3{
+        font-size: 13px;
     }
     .title{
         font-size: 20px;
@@ -488,10 +493,10 @@ body{
     .year{
         font-size: 10px;
     }
-    .workeduc-box .workeduc-content{
-        position: relative;
-        padding-left: 0.8rem;
-        margin-bottom: 1.2rem;
+    .services-box{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
     }
     .services-box .services-content{
         flex: 0;
@@ -503,7 +508,7 @@ body{
         transition: .3s ease;
     }
     .services-content i{
-        font-size: 1rem;
+        font-size: 1.5rem;
         color: var(--main-color);
     }
     .services-content h3{
